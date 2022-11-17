@@ -1,0 +1,32 @@
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.row2{
+    border: 1px solid black;
+    justify-self:center;
+}
+
+.row3{
+    border: 1px solid black;
+}
+
+.row4{
+    border: 1px solid black;
+}
+
+.row5 {
+    border: 1px solid black;
+}
+
+button{
+    width:10%;
+}
+#calc{
+
+    justify-self: center;
+    align-self: center;
+}
