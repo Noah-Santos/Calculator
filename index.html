@@ -8,29 +8,35 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <!-- flexbox conatiner -->
     <div class="flexbox">
-        <div>
+        <!-- input and clear -->
+        <div class="row1">
             <input type="text" value="" id="calc">
-            <button onclick="clearer()">C</button>
+            <button onclick="clearer()" id="clears">C</button>
         </div>
+        <!-- 7,8,9, and * signs -->
         <div class="row2">
             <button onclick="change(7)">7</button>
             <button onclick="change(8)">8</button>
             <button onclick="change(9)">9</button>
             <button onclick="mul()">*</button>
         </div>
+        <!-- 4,5,6, and - signs -->
         <div class="row3">
             <button onclick="change(4)">4</button>
             <button onclick="change(5)">5</button>
             <button onclick="change(6)">6</button>
             <button onclick="sub()">-</button>
         </div>
+        <!-- 1,2,3, and + signs -->
         <div class="row4">
             <button onclick="change(1)">1</button>
             <button onclick="change(2)">2</button>
             <button onclick="change(3)">3</button>
             <button onclick="add()">+</button>
         </div>
+        <!-- /,0, and = signs -->
         <div class="row5">
             <button onclick="div()">/</button>
             <button onclick="change(0)">0</button>
