@@ -1,5 +1,4 @@
 "use strict";
-let math =[];
 // changes the value of the input if button is clicked
 function change(num){
     document.getElementById("calc").value += num;
@@ -25,4 +24,15 @@ function div(){
     document.getElementById("calc").value += "/";
 }
 
+//calculates the input
+function enter(){
+    let equation = document.getElementById("calc").value;
+    equation = eval(equation);
+    document.getElementById("calc").value = equation;
+}
 
+//clears the input
+function clearer(){
+    document.getElementById("calc").value = " ";
+    console.log("test")
+}
