@@ -34,5 +34,4 @@ function enter(){
 //clears the input
 function clearer(){
     document.getElementById("calc").value = " ";
-    console.log("test")
 }

@@ -1,7 +1,7 @@
 /* create flexbox */
 .flexbox{
     width: 40%;
-    margin: auto;
+    margin: auto; /* center flexbox on page */
     margin-top: 4%;
     display: flex;
     flex-direction: column;
@@ -23,6 +23,7 @@ button{
     background-color:black;
     color:white;
     border: 1px solid orange;
+    font-size: 200%;
 }
 
 /* customize clear button */
