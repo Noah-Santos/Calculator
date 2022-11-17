@@ -11,34 +11,45 @@
     <!-- flexbox conatiner -->
     <div class="flexbox">
         <!-- input and clear -->
-        <div class="row1">
+        <div class="row">
             <input type="text" value="" id="calc">
             <button onclick="clearer()" id="clears">C</button>
         </div>
-        <!-- 7,8,9, and * signs -->
-        <div class="row2">
+        <!-- -,.,sin,cos, and tan signs -->
+        <div class="row">
+            <div onclick="degree(1)">sin</div>
+            <div onclick="degree(2)">cos</div>
+            <div onclick="degree(3)">tan</div>
+        </div>
+        <!-- 7,8,9, % and * signs -->
+        <div class="row">
+            <button onclick="symbols(7)">%</button>
             <button onclick="change(7)">7</button>
             <button onclick="change(8)">8</button>
             <button onclick="change(9)">9</button>
-            <button onclick="mul()">*</button>
+            <button onclick="symbols(5)">*</button>
         </div>
         <!-- 4,5,6, and - signs -->
-        <div class="row3">
+        <div class="row">
             <button onclick="change(4)">4</button>
             <button onclick="change(5)">5</button>
             <button onclick="change(6)">6</button>
-            <button onclick="sub()">-</button>
+            <button onclick="symbols(4)">-</button>
         </div>
-        <!-- 1,2,3, and + signs -->
-        <div class="row4">
+        <!-- 1,2,3, **2, and + signs -->
+        <div class="row">
+            <button onclick="symbols(8)">x²</button>
             <button onclick="change(1)">1</button>
             <button onclick="change(2)">2</button>
             <button onclick="change(3)">3</button>
-            <button onclick="add()">+</button>
+            <button onclick="symbols(3)">+</button>
         </div>
-        <!-- /,0, and = signs -->
-        <div class="row5">
-            <button onclick="div()">/</button>
+        <!-- /,0, (, ), **(1/2), and = signs -->
+        <div class="row">
+            <button onclick="symbols(9)">√</button>
+            <button onclick="symbols(1)">(</button>
+            <button onclick="symbols(2)">)</button>
+            <button onclick="symbols(6)">/</button>
             <button onclick="change(0)">0</button>
             <button onclick="enter()">=</button>
         </div>
