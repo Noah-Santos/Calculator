@@ -37,6 +37,10 @@ function symbols(num){
         input.value += "**2";
     }else if(num == 9){
         input.value += "**(1/2)";
+    }else if(num == 10){
+        input.value += "-";
+    }else if(num == 11){
+        input.value += "."
     }
 }
 
@@ -46,6 +50,8 @@ function degree(num){
     if(num == 1){
         input.value += "Math.sin(";
     }else if(num == 2){
-        
+        input.value += "Math.cos(";
+    }else if(num == 3){
+        input.value += "Math.tan(";
     }
 }
